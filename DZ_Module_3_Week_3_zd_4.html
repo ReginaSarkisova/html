@@ -5,27 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DZ_Module_3_Week_3_zd_4</title>
   <style>
+    .background {
+      background-color: #2a4f6e;
+      max-width: 1000px;
+      margin: 20px auto;
+      color: white;
+    }
+    .flex {
+      display: flex;
+      gap: 5px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 30px 0px 30px;
+      
+    }
 
-
+    .copyright {
+      padding: 20px;
+      text-align: center;
+    }
+    .footer {
+      padding: 0px 0px 0px 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer2 {
+      padding: 0px 30px 0px 0px;
+    }
+    img {
+      padding: 10px;
+      filter: grayscale(1);
+    }
+    img:hover {
+      filter: grayscale(0);
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+   
   </style>
 </head>
 <body>
   <footer>
-    <div>
-      <div>Home <br>
-        About <br>
-        Gallery <br>
-        Nows <br>
+    <div class="background">
+    <div class="flex">
+      <div class="footer">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#"> Gallery</a> 
+        <a href="#"> Nows </a>
        </div>
-       <div>
-        Blog <br>
-        FAQ  <br>
-        Contact <br>
-        Privacy & cookies <br>
+       <div class="footer">
+        <a href="#"> Blog </a>
+        <a href="#"> FAQ </a> 
+        <a href="#">Contact </a>
+        Privacy & cookies </a>
        </div>
-
-
-    </div>
+       <div class="footer2">
+        <img src="dz3\fb.png" alt="FB" >
+        <img src="dz3\insta.png" alt="insta">
+        <img src="dz3\youtube.png" alt="youtube">
+       </div>
+    </div>  
+    <div class="copyright"> <hr> Copyright Company 2018-2019</div> 
+    
+  </div>
   </footer>
 </body>
 </html>
