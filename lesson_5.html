@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson_5</title>
+  <style>
+    table {
+      border-collapse: separate;
+      border-spacing: 0px;
+      /*фоновый цвет для таблицы*/
+      background-color: #ececec;
+      
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .col-1 {
+      width: 200px;
+      text-align: left;
+    }
+    .col-2 { 
+      width: 120px;
+    }
+    th {
+      padding: 15px;
+      color: white;
+    }
+    td {
+      padding: 15px 25px;
+    }
+    .center {
+      text-align: center;
+    }
+    button {
+      padding: 8px 30px;
+      background-color: darkgray;
+      border: 1px solid gray;
+    }
+    button:hover {
+      background-color: rgb(121, 120, 120);
+    }
+    button:active {
+      background-color: rgb(211, 211, 211);
+    }
+
+  </style>
+</head>
+<body>
+  <table>
+    <colgroup>
+    <col span="1" class="col-1">
+    <col span="4" class="col-2">
+    </colgroup>
+    <thead>
+      <tr>
+        <th style="background-color: #7887ab;"> Choose your plan </th>
+        <th style="background-color: #4f628e;">starter <br><br>$10<br> per month</th>
+        <th style="background-color: #2e4172;">econom <br><br>$30<br> per month</th>
+        <th style="background-color: #162955;">standard <br><br>$59<br> per month</th>
+        <th style="background-color: #061539;">professional <br><br>$99<br> per month</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="background-color: #dbdbdb;">Amount of space</td>
+        <td class="center">20GB</td>
+        <td class="center" style="background-color: #dbdbdb;">40GB</td>
+        <td class="center" > 110GB</td>
+        <td class="center" style="background-color: #dbdbdb;"> Unlimeted</td>
+      </tr>
+      <tr>
+        <td>Bandwidth per month</td>
+        <td class="center" style="background-color: #f3f3f3;">120GB</td>
+        <td class="center">240GB</td>
+        <td class="center" style="background-color: #f3f3f3;">610GB</td>
+        <td class="center">1300GB</td>
+      </tr>
+      <tr>
+        <td style="background-color: #dbdbdb;">Email accounts</td>
+        <td class="center">1</td>
+        <td class="center" style="background-color: #dbdbdb;">15</td>
+        <td class="center">60</td>
+        <td class="center" style="background-color: #dbdbdb;">Unlimeted</td>
+      </tr>
+      <tr>
+        <td>MySQL databases</td>
+        <td class="center" style="background-color: #f3f3f3;">1</td>
+        <td class="center">15</td>
+        <td class="center" style="background-color: #f3f3f3;">60</td>
+        <td class="center">Unlimeted</td>
+      </tr>
+      <tr>
+        <td style="background-color: #dbdbdb;">25h support</td>
+        <td class="center">No</td>
+        <td class="center" style="background-color: #dbdbdb;">Yes</td>
+        <td class="center">Yes</td>
+        <td class="center" style="background-color: #dbdbdb;">Yes</td>
+      </tr>
+      <tr>
+        <td>Support tickets per month</td>
+        <td class="center" style="background-color: #f3f3f3;">2</td>
+        <td class="center">6</td>
+        <td class="center" style="background-color: #f3f3f3;">14</td>
+        <td class="center">20</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="center" style="background-color: #dbdbdb;"></td>
+        <td class="center"> <button> START </button></td>
+        <td class="center" style="background-color: #dbdbdb;"> <button> START </button></td>
+        <td class="center"> <button> START </button></td>
+        <td class="center" style="background-color: #dbdbdb;"> <button> START </button></td>
+      </tr>
+    </tfoot>
+    
+    
+  </table>
+</body>
+
+</html>

@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PZ_Module_3_Week_3_zd_3</title>
   <style>
+   .catGalery {
+    border: 1px solid rgb(210, 208, 208);
+    width: 512px;
+    margin: 50px auto;
+   }
 
-
+   .iframe {
+    width: 284px;
+    height: 256px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+   }
+   .flex {
+    display: flex;
+    justify-content: center;
+   }
+   a{
+    display: inline-block;
+    border: 1px solid rgb(210, 208, 208);
+    border-left: none;
+    border-bottom: none;
+    padding: 10px;
+    text-decoration: none;
+    background-color: transparent;
+   }
   </style>
 </head>
+
 <body>
-  
-  
+  <div class="catGalery">
+    <h1 style="text-align: center;">Cats Galery</h1>
+    <hr>
+    <iframe class="iframe" src="pz3/cat_tied_256.png" name="bigCat">
+
+    </iframe>
+    <div class="flex">
+      <a href="pz3/cat_tied_256.png" target="bigCat"><img width="64" src="pz3/cat_tied_64.png"></a>
+      <a href="pz3/cat_purr_256.png" target="bigCat"><img width="64" src="pz3/cat_purr_64.png"></a>
+      <a href="pz3/cat_eyes_256.png" target="bigCat"><img width="64" src="pz3/cat_eyes_64.png"></a>
+      <a href="pz3/cat_clean_256.png" target="bigCat"><img width="64" src="pz3/cat_clean_64.png"></a>
+      <a href="pz3/cat_cage_256.png" target="bigCat"><img width="64" src="pz3/cat_cage_64.png"></a>
+      <a href="pz3/cat_box_256.png" target="bigCat"><img width="64" src="pz3/cat_box_64.png"></a>
+    </div>
+  </div>
 </body>
+
 </html>
