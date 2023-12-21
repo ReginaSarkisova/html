@@ -16,8 +16,8 @@
     .center{
       width: 5px;
       height: 5px;
-      top: calc(50%-(5px/2));
-      left: calc(50%-(5px/2));
+      top: calc(50% - (5px/2));
+      left: calc(50% - (5px/2));
       background-color: green;
       border-radius: 50%;
      
@@ -30,7 +30,7 @@
       left: calc(50% - (3px/2));
       top: 20px;
       transform-origin: bottom center;
-      animation: 60s steps(60) infinite
+      animation:time  60s steps(60) infinite
     }
     .minutes{
       height: 60px;
@@ -39,7 +39,7 @@
       left: calc(50% - (3px/2));
      top: 40px;
      transform-origin: bottom center;
-     animation: 3600s linear infinite
+     animation:time  3600s linear infinite
     }
     .hour{
       width: 3px;
@@ -48,7 +48,7 @@
       top: 60px;
       left: calc(50% - (3px/2));
       transform-origin: bottom center;
-      animation: 86400s linear infinite;
+      animation: time 86400s linear infinite;
     }
     .watch div{
       position: absolute;
@@ -90,15 +90,22 @@
       top: 50%;
       transform: translateY(-50%) rotate(270deg);
     }
-
+    @keyframes time {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
   </style>
 </head>
 <body>
   <div class="watch">
-    <div class="center"></div>
-    <div class="hour"></div>
-    <div class="minutes"></div>
     <div class="seconds"></div>
+    <div class="minutes"></div>
+    <div class="hour"></div>
+    <div class="center"></div>
 
     <div class="twelve">12</div>
     <div class="twelve one">1</div>
