@@ -4,8 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DZ_Module_4_Week_4_zd_3</title>
+  <style>
+    body{
+      width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .flex{
+      display: flex;
+      transition: 1s;
+    }
+    .img {
+      width: 400px;
+      overflow: hidden;
+      height: 200px;
+    }
+    .text{
+      width: 400px;
+      height: 200px;
+      display: flex;
+      background-color: rgb(203, 203, 206);
+      justify-content: center;
+      align-items: center;
+    }
+    .reverse {
+      flex-direction: row-reverse
+    }
+    .flex:hover .text,.flex:hover .img {
+      background-color: rgba(0,0,0,0.5);
+      transition: 1s;
+    }
+    .flex:hover img {
+      transform: scale(1.5);
+      opacity: .3;
+      transition: 1s;
+    }
+
+
+  </style>
 </head>
 <body>
-  
+  <diV>
+    <div class="flex">
+      <div class="text">
+        <p>Hello, World!</p>
+      </div>
+      <div class="img"> <img width="400" src="pz3/sky-bg.jpg" alt="sky-bg"></div>
+    </div>
+    <div class="flex reverse">
+      <div class="text">
+        <p>Hello, World!</p>
+      </div>
+      <div class="img"> <img width="400" src="pz3/sky-bg.jpg" alt="sky-bg"></div>
+    </div>
+    <div class="flex">
+      <div class="text">
+        <p>Hello, World!</p>
+      </div>
+      <div class="img"> <img width="400" src="pz3/sky-bg.jpg" alt="sky-bg"></div>
+    </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+  </diV>
 </body>
 </html>
