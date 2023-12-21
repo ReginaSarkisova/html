@@ -3,9 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PZ_Module_4_Week_4_zd_1/title>
+  <title>PZ_Module_4_Week_4_zd_1</title>
+    <style>
+      .border{
+        border: 5px solid rgb(226, 130, 4);
+        width: 500px;
+        height: 100px;
+        margin: 100px auto;
+      }
+      .bloc{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(226, 130, 4);
+        animation: Anim 1s linear infinite;
+      }
+
+      @keyframes Anim{
+      from{
+          margin-left: 0px;
+          }
+      to{
+          margin-left: 400px;
+          }
+      }
+    </style>
 </head>
 <body>
+  <div class="border"> 
+    <div class="bloc"></div>
+  </div>
   
 </body>
 </html>
