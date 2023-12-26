@@ -17,9 +17,69 @@
       text-align: center;
     }
     .calc{
-      top: calc(50% - (5px/2));
-      left: calc(50% - (5px/2));
+      width: 150px;
+      transform: rotate(340deg) translate(10%, 100px);
+      animation: calc  2s ease 1s both;
+      opacity: 1;
     }
+    .book {
+      width: 200px;
+      transform: rotate(350deg) translate(10%, 50px);
+      animation: book  2s ease 1s both;
+      animation-delay: 1.5s;
+    }
+    .paper {
+      width: 200px;
+      transform: rotate(15deg) translate(10%, 50px);
+      animation: paper  2s ease 1s both;
+      animation-delay: 2s;
+    }
+    .pallete {
+      width: 150px;
+      transform: rotate(210deg) translate(-25%, -100px);
+      animation: pallete  2s ease 1s both;
+      animation-delay: 2.5s;
+    }
+    .pencil{
+      width: 150px;
+      transform: rotate(90deg) translate(25%, 0px);
+      animation: pencil  2s ease 1s both;
+      animation-delay: 3s;
+    }
+
+  
+    @keyframes calc {
+      from {
+        opacity: 0;
+        transform: rotate(340deg) translate(10%, 800px);
+      }
+    }
+    @keyframes book {
+      from {
+        opacity: 0;
+        transform: rotate(340deg) translate(10%, 800px);
+      }
+    }
+    @keyframes paper {
+      from {
+        opacity: 0;
+        transform: rotate(15deg) translate(10%, 800px);
+      }
+    }
+    @keyframes pallete {
+      from {
+        opacity: 0;
+        transform: rotate(210deg) translate(-25%, -800px);
+      }
+    }
+    @keyframes pencil {
+      from {
+        opacity: 0;
+        transform: rotate(90deg) translate(800px, 0px);
+      }
+    }
+    
+    
 
 
   </style>
@@ -27,11 +87,13 @@
 <body>
   <div>
     <h1>Hello, My Site!</h1>
-    <img class="calc" src="pz4/calc.png" alt="calc">
-    <img src="pz4/book.png" alt="book">
-    <img src="pz4/paper.png" alt="paper">
-    <img src="pz4/pallete.png" alt="pallete">
-    <img src="pz4/pencil.png" alt="pencil">
+    <p style="text-align: center;">
+      <img class="calc" src="pz4/calc.png" alt="calc">
+      <img class="book"src="pz4/book.png" alt="book">
+      <img class="paper"src="pz4/paper.png" alt="paper">
+      <img class="pallete"src="pz4/pallete.png" alt="pallete">
+      <p style="text-align: center;"><img class="pencil" src="pz4/pencil.png" alt="pencil"></p>
+    </p>
   </div>
 </body>
 </html>
