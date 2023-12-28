@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DZ_Module_5_6_Week_5_zd_1</title>
+  <style>
+    div {
+      height: 700px;
+      width: 800px;
+      overflow:scroll;
+    }
+    table {
+      border-spacing: 0px;
+      border-radius: 10px;
+    }
+
+    th{
+      background-color: aqua;
+      padding: 8px;
+      min-width: 74px;
+      text-align: center;
+    }
+    
+    td{
+      text-align: center;
+    }
+    tr:nth-child(2n+1){
+      background-color: rgba(134, 134, 134, 0.7);
+    }
+    td:nth-child(2n+1){
+      background-color: rgba(129, 129, 129, 0.747);
+    }
+    /* .col-1 {
+      position:fixed;
+    } */
+     th {
+      position:sticky;
+      top: 0;
+      left: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <table>
+      <colgroup>
+        <col span="1" class="col-1">
+        </colgroup>
+      <thead>
+        <tr>
+        <th style="z-index: 5;"></th>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th>
+        <th>Header 5</th>
+        <th>Header 6</th>
+        <th>Header 7</th>
+        <th>Header 8</th>
+        <th>Header 9</th>
+        <th>Header 10</th>
+        <th>Header 11</th>
+        <th>Header 12</th>
+        <th>Header 13</th>
+        <th>Header 14</th>
+        <th>Header 15</th>
+        <th>Header 16</th>
+        <th>Header 17</th>
+        <th>Header 18</th>
+        <th>Header 19</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Line 1</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 2</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 3</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 4</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 5</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 6</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 7</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 8</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 9</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 10</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 11</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 12</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 13</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 14</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 15</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 16</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 17</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 18</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 19</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 20</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 21</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 22</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 23</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 24</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Line 25</th>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+
+
+    </tbody>
+    
+    
+    
+    
+    </table>
+  </div>
+</body>
+</html>
