@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,12 +17,14 @@
     position: relative;
     width: 100px;
   }
+
   li {
     position: relative;
     padding: 1px;
     background: green;
-   
+
   }
+
   a {
     display: block;
     border-radius: 0;
@@ -32,48 +35,64 @@
     background: green;
     padding: 10px;
     text-decoration: none;
-    
+
   }
-  a:hover{
+
+  a:hover {
     background: rgb(5, 64, 5);
     transition: 1s;
   }
+
   .inner {
     left: 100%;
     top: 0;
   }
+
   li ul {
     display: none;
     position: absolute;
   }
+
   li:hover>ul {
     display: flex;
     flex-direction: column;
   }
-
-
+  p{
+    width: 800px;
+  }
 </style>
+
 <body>
   <div>
     <uL>
       <li><a href="#">Home</a> </li>
-      <li><a href="#">Category</a> 
-      <ul style="width: 83.4px; top:100%">
-        <li><a  style="border-top: none;" href="#">Man</a> </li>
-        <li> <a href="#">Woomen</a>
-        <ul class="inner">
-          <li><a href="#"> Dress</a></li>
-          <li><a href="#"> Pants</a></li>
-          <li><a href="#"> Shoes</a></li>
+      <li><a href="#">Category</a>
+        <ul style="width: 83.4px; top:100%">
+          <li><a style="border-top: none;" href="#">Man</a> </li>
+          <li> <a href="#">Woomen</a>
+            <ul class="inner">
+              <li><a href="#"> Dress</a></li>
+              <li><a href="#"> Pants</a></li>
+              <li><a href="#"> Shoes</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Kids</a></li>
         </ul>
-        </li>
-        <li> <a href="#">Kids</a></li>
-      </ul>
       </li>
       <li><a href="#">About</a> </li>
       <li><a href="#">Contacts</a> </li>
     </uL>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, architecto eaque esse iusto facere sunt adipisci
+      est voluptatibus minus consequatur! Eaque fuga esse sapiente expedita. A dicta voluptatem vitae recusandae. Lorem,
+      ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ab necessitatibus debitis cupiditate aliquam ipsum
+      neque praesentium accusamus voluptatem sint est quos sapiente nulla, ipsa, mollitia qui repudiandae nesciunt
+      fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officiis saepe facilis voluptatibus fugit
+      minus quos adipisci, quam temporibus nobis, exercitationem, recusandae pariatur! Blanditiis accusamus facere ipsam
+      excepturi tempora sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate, ipsam magnam
+      consectetur perspiciatis at animi maiores atque ea, necessitatibus cupiditate nemo quam ad inventore amet, tempore
+      error? Modi, facilis!</p>
   </div>
-  
+
 </body>
+
 </html>
