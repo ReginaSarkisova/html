@@ -6,6 +6,46 @@
   <title>PZ_Module_5_6_Week_5_zd_2</title>
 </head>
 <style>
+  ul {
+    display: flex;
+    width: auto;
+    background: green;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100px;
+  }
+  li {
+    position: relative;
+    padding: 1px;
+    background: green;
+   
+  }
+  a {
+    display: block;
+    border-radius: 0;
+    color: white;
+    margin: 0px;
+    text-transform: capitalize;
+    transition: 1s;
+    background: green;
+    padding: 10px;
+    text-decoration: none;
+    
+  }
+  a:hover{
+    background: rgb(5, 64, 5);
+    transition: 1s;
+  }
+  .inner {
+    left: 100%;
+    top: 0;
+  }
+  li ul {
+    display: none;
+    position: absolute;
+  }
 
 
 </style>
@@ -13,8 +53,19 @@
   <div>
     <uL>
       <li><a href="#">Home</a> </li>
-      <li><a href="#">Category</a> </li>
-      <li><a href="#">Category</a> </li>
+      <li><a href="#">Category</a> 
+      <ul style="width: 83.4px; top:100%">
+        <li><a  style="border-top: none;" href="#">Man</a> </li>
+        <li> <a href="#">Woomen</a>
+        <ul class="inner">
+          <li><a href="#"> Dress</a></li>
+          <li><a href="#"> Pants</a></li>
+          <li><a href="#"> Shoes</a></li>
+        </ul>
+        </li>
+        <li> <a href="#">Kids</a></li>
+      </ul>
+      </li>
       <li><a href="#">About</a> </li>
       <li><a href="#">Contacts</a> </li>
     </uL>
