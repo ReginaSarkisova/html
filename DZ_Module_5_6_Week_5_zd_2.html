@@ -1,68 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DZ_Module_5_6_Week_5_zd_2</title>
   <style>
     body {
-      padding: 0;
       margin: 0;
     }
+
     ul {
       margin: 0;
       padding: 0;
       list-style: none;
     }
+
     nav {
-      width: 100px;
+      width: 60px;
       background-color: gray;
-       height: 100vh;
-      transition: 1s; 
-    } 
+      transition: 1s;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+
+    }
 
     nav:hover {
-      width: 200px;
+      width: 220px;
       transition: 1s;
     }
-    li:hover {
+
+    a:hover {
       background-color: rgb(77, 77, 77);
     }
+
     a {
       text-transform: uppercase;
       color: white;
       text-decoration: none;
-    }
-    li {
       padding: 20px 20px 20px 60px;
+      display: block;
     }
+
     .edit {
       background: url(dz3/edit.png) 0px -5px/ 64px 64px no-repeat;
     }
+
     .fav {
       background: url(dz3/favorites.png) 0px -5px/ 64px 64px no-repeat;
     }
+
     .history {
       background: url(dz3/history.png) 0px -5px/ 64px 64px no-repeat;
     }
+
     .seq {
       background: url(dz3/security.png) 0px -5px/ 64px 64px no-repeat;
     }
+
     .settings {
       background: url(dz3/settings.png) 0px -5px/ 64px 64px no-repeat;
     }
+
+    .menu {
+      color: white;
+      padding: 10px 10px;
+      text-align: center;
+    }
+
+    .content {
+      margin: 0 30px 0 100px;
+    }
+
   </style>
 </head>
+
 <body>
-  
-<nav>
-  <ul>
-    <li class="edit"><a href="#">Edit</a></li>
-    <li class="fav"><a href="#">FAVORITES</a></li>
-    <li class="history"><a href="#">HISTORY</a></li>
-    <li class="seq"><a href="#">SECURITY</a></li>
-    <li class="settings"><a href="#">SETTINGS</a></li>
-  </ul>
-</nav>
+  <nav>
+    <ul>
+      <li class="menu">MENU</li>
+      <li><a class="edit" href="#">Edit</a></li>
+      <li><a  class="fav" href="#">FAVORITES</a></li>
+      <li><a class="history" href="#">HISTORY</a></li>
+      <li><a class="seq" href="#">SECURITY</a></li>
+      <li><a class="settings" href="#">SETTINGS</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+      <h1> What is lorem ipsum?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum
+        doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis voluptatem libero eum
+        laborum magnam quidem saepe animi, aperiam doloremque odio. Saepe iste corporis magnam adipisci incidunt labore
+        placeat veritatis pariatur?</p>
+
+      <h1> What is lorem ipsum?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum
+        doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non beatae, odit deserunt iste
+        fugiat illum recusandae in amet, rerum fuga officiis deleniti qui optio a praesentium, ducimus architecto
+        accusantium. Laboriosam?</p>
+
+      <h1> What is lorem ipsum?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum
+        doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vel ipsa rem, nobis quam
+        est repudiandae vero iste cumque, repellat ad minus ut inventore quasi, impedit at veniam adipisci nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum
+        doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vel ipsa rem, nobis quam
+        est repudiandae vero iste cumque, repellat ad minus ut inventore quasi, impedit at veniam adipisci nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum
+        doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vel ipsa rem, nobis quam
+        est repudiandae vero iste cumque, repellat ad minus ut inventore quasi, impedit at veniam adipisci nostrum!</p>
+
+      <h1> What is lorem ipsum?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat officia ex molestiae
+        placeat possimus pariatur, amet ipsa odio. Quo quaerat, perferendis itaque deserunt nisi enim! Laborum porro
+        iure minima repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, asperiores culpa
+        illum est et in cumque unde praesentium quis esse accusamus iste, laborum neque soluta consectetur dolor facere
+        eos reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptatem dolorem quaerat
+        doloribus aliquid. Quisquam reiciendis recusandae consectetur accusamus voluptatem veritatis vero hic, ducimus,
+        animi harum laborum exercitationem quia quibusdam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum
+        doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vel ipsa rem, nobis quam
+        est repudiandae vero iste cumque, repellat ad minus ut inventore quasi, impedit at veniam adipisci nostrum!</p>
+        <h1> What is lorem ipsum?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat officia ex molestiae
+        placeat possimus pariatur, amet ipsa odio. Quo quaerat, perferendis itaque deserunt nisi enim! Laborum porro
+        iure minima repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, asperiores culpa
+        illum est et in cumque unde praesentium quis esse accusamus iste, laborum neque soluta consectetur dolor facere
+        eos reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptatem dolorem quaerat
+        doloribus aliquid. Quisquam reiciendis recusandae consectetur accusamus voluptatem veritatis vero hic, ducimus,
+        animi harum laborum exercitationem quia quibusdam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum
+        doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vel ipsa rem, nobis quam
+        est repudiandae vero iste cumque, repellat ad minus ut inventore quasi, impedit at veniam adipisci nostrum!</p>
+        <h1> What is lorem ipsum?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat officia ex molestiae
+        placeat possimus pariatur, amet ipsa odio. Quo quaerat, perferendis itaque deserunt nisi enim! Laborum porro
+        iure minima repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, asperiores culpa
+        illum est et in cumque unde praesentium quis esse accusamus iste, laborum neque soluta consectetur dolor facere
+        eos reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptatem dolorem quaerat
+        doloribus aliquid. Quisquam reiciendis recusandae consectetur accusamus voluptatem veritatis vero hic, ducimus,
+        animi harum laborum exercitationem quia quibusdam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ullam blanditiis accusantium. Quia
+        natus ad, repudiandae voluptates earum commodi quibusdam atque facilis necessitatibus corrupti, beatae
+        voluptatum
+        doloremque ab aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt quasi. Incidunt
+        magni pariatur ad facere! Ea praesentium laboriosam quos a ex nisi dicta, odit minima distinctio, tenetur vero
+        officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere voluptatem earum hic minus? Et,
+        nesciunt? Voluptates nobis magnam modi fugiat consequuntur quod quibusdam, obcaecati quis perferendis natus
+        tenetur asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vel ipsa rem, nobis quam
+        est repudiandae vero iste cumque, repellat ad minus ut inventore quasi, impedit at veniam adipisci nostrum!</p>
+    
+  </div>
+
 </body>
+
 </html>
