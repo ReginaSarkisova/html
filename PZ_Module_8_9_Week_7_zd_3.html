@@ -6,9 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PZ_Module_8_9_Week_7_zd_3</title>
   <style>
+    body {
+      margin: 0 auto;
+      max-width: 1200px;
+      min-width: 650px;
+    }
+
     .log {
       display: flex;
-      width: 100%;
+      width: 1200px;
       height: 50px;
       position: fixed;
       top: 0;
@@ -17,6 +23,7 @@
       padding: 0;
       background-color: #383838;
       align-items: center;
+      gap: 20px;
     }
 
     a {
@@ -32,19 +39,81 @@
 
     li {
       color: white;
-
+      padding: 30px;
     }
+    
 
     .content {
       background-color: #d3d3d3;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .content_1 {
+      width: 900px;
+      margin: 70px 0px 30px 30px;
+      height: 722px;
+      background-color: white;
+    }
+
+    .blok {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin: 78px 30px 30px 0px;
+      width: 300px;
+      height: 730px;
+
+    }
+
+    .blok img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+    }
+
+    .quote {
+      background-color: white;
+      padding: 10px;
+    }
+
+    .calendar {
+      background-color: white;
+      
+    }
+    .calendar p{
+      margin: 0;
+    }
+
+    .img {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      width: 200px;
+      
+    }
+    h2{
+      margin: 10px 0 0 0;
+      padding: 15px 15px 15px 15px;
+    }
+    .content_1 p {
+      padding: 10px 15px 15px 25px;
+      margin: 0;
+    }
+    .content_1 h1{
+      padding: 25px 15px 0 25px;
+      margin: 0;
     }
   </style>
+
 </head>
 
 <body>
 
   <ul class="log">
-    <li>Lorem Site</li>
+    <li> <h3>Lorem Site</h3></li>
     <li><a href="#">News</a></li>
     <li><a href="#">Events</a></li>
     <li><a href="#">Courses</a></li>
@@ -66,7 +135,40 @@
         consectetur.</p>
 
     </div>
-    <div></div>
+    <div class="blok">
+      <div class="calendar">
+        <h2>Events</h2>
+        <div class="img">
+          <img src="week_7_zd_3/calendar_7.png" alt="calendar_7">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="img">
+          <img src="week_7_zd_3/calendar_19.png">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="img">
+          <img src="week_7_zd_3/calendar_27.png">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet 
+         </p>
+        </div>
+        <div class="img">
+          <img src="week_7_zd_3/calendar_7.png" alt="calendar_7">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="img">
+          <img src="week_7_zd_3/calendar_19.png">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        </p>
+        </div>
+        <div class="img">
+          <img src="week_7_zd_3/calendar_27.png">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          </p>
+        </div>
+      </div>
+      <div class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, mollitia. Veritatis velit, sed
+        delectus assumenda illum maiores magnam" </div>
+    </div>
   </div>
 
 </body>
