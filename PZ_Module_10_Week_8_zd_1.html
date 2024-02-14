@@ -1,17 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PZ_Module_10_Week_8_zd_1</title>
   <style>
+    .flex {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(232, 226, 226);
+      width: 300px;
+      position: absolute;
+      text-align: center;
+      top: 30px;
+      right: 65px;
+      padding: 10px;
+      gap: 5px;
 
+    }
+
+    .form {
+      background-color: red;
+      width: 450px;
+      height: 460px;
+      text-align: center;
+      position: relative;
+      margin: 180px auto;
+
+    }
+
+    .text {
+      margin-bottom: 15px;
+      padding: 10px 60px 10px 60px;
+      text-align: center;
+    }
+
+    .submit {
+      margin-bottom: 15px;
+      padding: 10px 124px 10px 124px;
+      text-align: center;
+      background-color: green;
+    }
+
+    a {
+      margin-bottom: 15px;
+      padding: 10px 60px 10px 60px;
+      text-align: center;
+      color: red;
+      text-decoration: none
+    }
+    .or{
+      position: absolute;
+      right: 175px;
+      top: 320px;
+      color: white;
+      font-size: large;
+    }
+    
   </style>
 </head>
+
 <body>
-<form action="form_resut.html">
+  <div class="form">
+    <div class="flex">
+      <h1>Member Login</h1>
+      <form action="form_resut.html">
+        <div><input type="text" name="Username" id="name" placeholder="Username" class="text"></div>
+        <div><input type="password" name="password" id="password" placeholder="Password" class="text"></div>
+        <div><input type="submit" value="Login" class="submit"></div>
+        <div><a href="#">Forgot password?</a></div>
+      </form>
+    </div>
+    <div class="or">
+      <p>...or log in with:</p>
+      <form action="form_resut.html">
+        <!-- Почему при нажатии на картинки выходят значения x и у -->
+        <input type="image" src="DZ10/invalid.png"> 
+        <input type="image" src="DZ10/pswd.png">
+    </div>
 
-
-</form>
+    </form>
+  </div>
 </body>
+
 </html>
