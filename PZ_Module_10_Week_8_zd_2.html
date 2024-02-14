@@ -8,21 +8,20 @@
 </head>
 <style>
   body{
-    background-image: url(DZ10/fon.jpg);
+    background-image: url(DZ10/fon3.jpg);
     background-attachment: fixed;
     background-size: 100%
   }
   .blok{
-    /* не поняла как сделать фон формы прозрачный, но что бы все элементы были видны */
-    background-image: url(DZ10/fon.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0);
     width: 800px;
-    height: 600px;
+    height: 460px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 5px 30px 0;
+    padding: 20px;
   }
   .flex{
     display: flex;
@@ -31,44 +30,93 @@
 
   .inline_flex{
     display: inline-flex;
+    margin: 10px 0 0 0;
+  }
+  h1, p{
+    color: white;
+  }
+  hr{
+    color: white;
+    width: 780px;
+    border: 1px solid white;
+
+  }
+  label{
+    width: 150px;
+    color: white;
+    padding: 5px 10px 5px 0;
+  }
+  .name input{
+    margin-right: 10px;
+    width: 305px;
+    border:  white;
+  }
+  .email input{
+    width: 624px;
+    border:  white;
+  }
+  .phone input{
+    margin-right: 10px;
+    width: 199px;
+    border:  white;
+  }
+  select{
+    width: 630px;
+    border:  white;
+  }
+  .message input{
+    height: 100px;
+    width: 626px;
+    border:  white;
+  }
+  .submit{
+    margin-left: 160px;
+    margin-right: 10px;
+    height: 30px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
   }
 
 </style>
 
 <body>
   <div class="blok">
-    <h1>Contanct form</h1>
+    <h1>Contact form</h1>
     <p>Please fill your information and well be sending your order.</p>
     <form action="form_resut.html" class="flex">
-      <div class="inline_flex">
+      <div class="inline_flex name">
         <label for="name">Your name</label>
-        <input type="text" name="First name" id="name" placeholder="First name">
-        <input type="text" name="Last name" id="name" placeholder="Last name">
+        <input type="text" name="First" id="name" placeholder="First name">
+        <input type="text" name="Last" id="name" placeholder="Last name">
       </div>
-      <div class="inline_flex">
+      <div class="inline_flex email">
         <label for="email">Your email</label>
         <input type="email" name="email" id="email" placeholder="your_mail@mail.com">
       </div>
-      <div class="inline_flex">
+      <div class="inline_flex phone">
         <label for="phone*">Phone*</label>
-        <input type="text" name="phone" id="phone" placeholder="000">
-        <input type="text" name="phone" id="phone" placeholder="000">
-        <input type="text" name="phone" id="phone" placeholder="0000">
+        <input type="text" name="Phone" id="phone" placeholder="000">
+        <input type="text" name="Phone" id="phone" placeholder="000">
+        <input type="text" name="Phone" id="phone" placeholder="0000">
       </div>
       <div class="inline_flex">
         <label for="subject">Message subject*</label>
-        <select type="country" name="subject" id="subject" >
+        <select type="country" name="Subject" id="subject" >
           <option value="Other">Other</option>
           <option value="one">One</option>
           <option value="two">Two</option>
         </select>
       </div>
-      <div class="inline_flex">
+      <!-- как сделать что бы самый длинный текст влазил в поле а не уходил за его границы -->
+      <div class="inline_flex message">
         <label for="Message">Message*</label>
         <input type="text" name="Message" id="Message">
       </div>
       <hr>
-      <input type="submit" value="submit form">
+      <input type="submit" value="submit form" class="submit">
     </form>
   </div>
 
