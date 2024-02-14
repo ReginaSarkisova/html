@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PZ_Module_10_Week_8_zd_2</title>
+</head>
+<style>
+  body{
+    background-image: url(DZ10/fon.jpg);
+    background-attachment: fixed;
+    background-size: 100%
+  }
+  .blok{
+    /* не поняла как сделать фон формы прозрачный, но что бы все элементы были видны */
+    background-image: url(DZ10/fon.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inline_flex{
+    display: inline-flex;
+  }
+
+</style>
+
+<body>
+  <div class="blok">
+    <h1>Contanct form</h1>
+    <p>Please fill your information and well be sending your order.</p>
+    <form action="form_resut.html" class="flex">
+      <div class="inline_flex">
+        <label for="name">Your name</label>
+        <input type="text" name="First name" id="name" placeholder="First name">
+        <input type="text" name="Last name" id="name" placeholder="Last name">
+      </div>
+      <div class="inline_flex">
+        <label for="email">Your email</label>
+        <input type="email" name="email" id="email" placeholder="your_mail@mail.com">
+      </div>
+      <div class="inline_flex">
+        <label for="phone*">Phone*</label>
+        <input type="text" name="phone" id="phone" placeholder="000">
+        <input type="text" name="phone" id="phone" placeholder="000">
+        <input type="text" name="phone" id="phone" placeholder="0000">
+      </div>
+      <div class="inline_flex">
+        <label for="subject">Message subject*</label>
+        <select type="country" name="subject" id="subject" >
+          <option value="Other">Other</option>
+          <option value="one">One</option>
+          <option value="two">Two</option>
+        </select>
+      </div>
+      <div class="inline_flex">
+        <label for="Message">Message*</label>
+        <input type="text" name="Message" id="Message">
+      </div>
+      <hr>
+      <input type="submit" value="submit form">
+    </form>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
