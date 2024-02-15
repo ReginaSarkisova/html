@@ -45,7 +45,7 @@
       background-color: green;
     }
 
-    a {
+    .flex a {
       margin-bottom: 15px;
       padding: 10px 60px 10px 60px;
       text-align: center;
@@ -54,12 +54,20 @@
     }
 
     .or {
+      
       position: absolute;
       right: 175px;
       top: 320px;
       color: white;
       font-size: large;
     }
+    .img{
+      display: flex;
+      height: 48px;
+      width: 48px;
+      gap: 10px;
+    }
+
   </style>
 </head>
 
@@ -76,13 +84,13 @@
     </div>
     <div class="or">
       <p>...or log in with:</p>
-      <form action="form_resut.html">
-        <!-- Почему при нажатии на картинки выходят значения x и у -->
-        <input type="image" src="DZ10/invalid.png">
-        <input type="image" src="DZ10/pswd.png">
+      <div class="img">
+      <a href="#"><img src="DZ10/invalid.png"  style="height: 48px; width: 48px; object-fit: cover;"> </a>
+      <a href="#"> <img src="DZ10/pswd.png" style="height: 48px; width: 48px; object-fit: cover;" ></a>
+       </div>
     </div>
 
-    </form>
+    
   </div>
 </body>
 
